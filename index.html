@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Nutrição Personalizada - Dra. Marina Costa</title>
-    <!-- Incluir links para CSS aqui -->
 </head>
 <body>
 
 <header>
     <nav>
-        <!-- Aqui pode ir o menu de navegação, se necessário -->
+        <ul style="list-style: none; display: flex; justify-content: center; padding: 0;">
+            <li><a href="#introducao" style="padding: 0 15px; color: white; text-decoration: none;">Introdução</a></li>
+            <li><a href="#servicos" style="padding: 0 15px; color: white; text-decoration: none;">Serviços</a></li>
+            <li><a href="#vantagens" style="padding: 0 15px; color: white; text-decoration: none;">Vantagens</a></li>
+            <li><a href="#contato" style="padding: 0 15px; color: white; text-decoration: none;">Contato</a></li>
+            <li><a href="#informacoes-adicionais" style="padding: 0 15px; color: white; text-decoration: none;">Informações Adicionais</a></li>
+        </ul>
     </nav>
 </header>
+    
 
 <main>
     <section id="introducao">
@@ -22,14 +29,60 @@
 
     <section id="servicos">
         <h2>Serviços Personalizados para Todos</h2>
-        <!-- Detalhes dos serviços oferecidos -->
+        <div class="servico">
+            <h3>Consultas Personalizadas</h3>
+            <p>Oferecemos consultas individuais, focadas em entender suas metas de saúde e estilo de vida, para criar um plano nutricional que se encaixe perfeitamente em sua rotina.</p>
+        </div>
+        <div class="servico">
+            <h3>Avaliação Nutricional Completa</h3>
+            <p>Realizamos uma avaliação abrangente do seu estado nutricional atual, incluindo análise de composição corporal, para identificar necessidades e objetivos específicos.</p>
+        </div>
+        <div class="servico">
+            <h3>Planos de Dieta Personalizados</h3>
+            <p>Desenvolvemos planos alimentares personalizados, considerando suas preferências, intolerâncias e alergias alimentares, para promover uma alimentação saudável e prazerosa.</p>
+        </div>
+        <div class="servico">
+            <h3>Coaching de Estilo de Vida Saudável</h3>
+            <p>Além da nutrição, oferecemos coaching para ajudar a incorporar hábitos de vida saudáveis, incluindo atividades físicas e técnicas de gestão de estresse.</p>
+        </div>
+        <div class="servico">
+            <h3>Workshops e Palestras</h3>
+            <p>Organizamos eventos educativos sobre nutrição e saúde, perfeitos para empresas, escolas ou grupos interessados em aprender mais sobre alimentação saudável.</p>
+        </div>
+        <div class="servico">
+            <h3>Consultas Online</h3>
+            <p>Para sua conveniência, oferecemos consultas online via vídeo chamada, permitindo flexibilidade e acesso a nossos serviços de qualquer lugar.</p>
+        </div>
     </section>
-
+    
     <section id="vantagens">
         <h2>Transforme Sua Vida com a Nutrição Certa</h2>
-        <!-- Benefícios dos serviços -->
+        <div class="vantagem">
+            <h3>Alcance Seus Objetivos de Saúde</h3>
+            <p>Com planos nutricionais personalizados, você pode alcançar seus objetivos de saúde, seja emagrecer, ganhar massa muscular ou simplesmente melhorar sua saúde geral.</p>
+        </div>
+        <div class="vantagem">
+            <h3>Nutrição Baseada em Evidências</h3>
+            <p>Nossas recomendações são baseadas nas mais recentes pesquisas em nutrição, garantindo que você receba informações confiáveis e atualizadas.</p>
+        </div>
+        <div class="vantagem">
+            <h3>Estilo de Vida Sustentável</h3>
+            <p>Aprenda a fazer escolhas alimentares saudáveis de forma sustentável, sem dietas restritivas, promovendo uma mudança de longo prazo em seu estilo de vida.</p>
+        </div>
+        <div class="vantagem">
+            <h3>Conforto e Conveniência</h3>
+            <p>Com as consultas online, você pode receber orientação nutricional profissional no conforto de sua casa, adaptando-se facilmente à sua rotina.</p>
+        </div>
+        <div class="vantagem">
+            <h3>Prevenção e Controle de Doenças</h3>
+            <p>Uma boa nutrição é fundamental na prevenção e no controle de doenças crônicas, como diabetes, hipertensão e colesterol alto.</p>
+        </div>
+        <div class="vantagem">
+            <h3>Educação Nutricional</h3>
+            <p>Amplie seu conhecimento sobre nutrição com nossos workshops e palestras, e tome decisões mais informadas sobre sua alimentação e saúde.</p>
+        </div>
     </section>
-
+    
     <section id="contato">
         <h2>Vamos Começar Sua Jornada para o Bem-estar?</h2>
         <form action="/submit" method="post">
@@ -45,13 +98,41 @@
 
     <section id="informacoes-adicionais">
         <h2>Qualificações e Feedback de Clientes</h2>
-        <!-- Qualificações e testemunhos -->
+        
+        <div class="qualificacoes">
+            <h3>Qualificações Profissionais</h3>
+            <p>Graduação em Nutrição pela Universidade de São Paulo, Mestrado em Nutrição Clínica, Certificação em Nutrição Holística.</p>
+            <p>Especialista em nutrição para controle de peso, nutrição esportiva e bem-estar geral.</p>
+        </div>
+        
+        <div class="testemunhos">
+            <h3>O que Dizem Nossos Clientes</h3>
+            <div class="testemunho">
+                <p><strong>Carlos:</strong> "A Dra. Marina mudou minha vida. Graças ao seu plano personalizado, perdi 15kg de maneira saudável."</p>
+            </div>
+            <div class="testemunho">
+                <p><strong>Fernanda:</strong> "As consultas online são incríveis! Práticas e muito eficientes."</p>
+            </div>
+        </div>
     </section>
+    
 </main>
 
 <footer>
-    <!-- Informações do rodapé, como direitos autorais, links de redes sociais, etc. -->
+    <div class="footer-content">
+        <p>Agende sua consulta online com a Dra. Marina Costa!</p>
+        <p>Email: contato@drmarinanutri.com.br | Telefone: (11) 1234-5678</p>
+    </div>
+    <div class="social-links">
+        <a href="https://www.facebook.com/drmarinanutri" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/drmarinanutri" target="_blank">Instagram</a> |
+        <a href="https://www.linkedin.com/in/drmarinanutri" target="_blank">LinkedIn</a>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 Dra. Marina Costa - Todos os direitos reservados</p>
+    </div>
 </footer>
+
 
 </body>
 </html>
