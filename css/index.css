@@ -1,0 +1,85 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #024959;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header nav a, footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para cada seção */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para cabeçalhos de seção */
+section h1, section h2 {
+    color: #024959;
+}
+
+/* Estilos para o formulário de contato */
+#contato form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#contato form label {
+    margin-top: 10px;
+}
+
+#contato form input[type="text"],
+#contato form input[type="email"],
+#contato form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#contato form button {
+    background-color: #024959;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#contato form button:hover {
+    background-color: #023b3f;
+}
+
+/* Resposta para telas menores */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+}
